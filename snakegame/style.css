@@ -1,0 +1,12 @@
+header {
+    height: 400px;
+    font-family: Impact;
+    color: orange;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 100px;
+}
+body {
+    background-color: black;
+    text-align: center;
+}

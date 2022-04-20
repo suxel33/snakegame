@@ -1,0 +1,50 @@
+body {
+    background: black;
+  }
+  .scoreDisplay {
+      color:red;
+      font-size: 100px;
+
+  }
+  
+  .grid {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+    /*border:1px black solid;
+  box-sizing:border-box*/
+  }
+  
+  .snake {
+    background: orangered;
+  }
+  
+  .apple {
+    background: darkred;
+    border-radius: 20px;
+  }
+  
+  .popup {
+    background: black;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .scoreDisplay {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+  }
